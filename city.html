@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroFix</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Thunder:wght@400..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+
+  <style>
+@font-face {
+  font-family: "Thunder";
+  src: url(Thunder-BoldLC.ttf);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(Helvetica-Bold.ttf);
+}
+
+    .overgrad {
+        background: linear-gradient(to right, black 100%, transparent 0%);
+    }
+
+    .background-image {
+      position: absolute;
+      right: 0;
+      z-index: 1;
+      height: 85vh;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      background: linear-gradient(to right, #181532 50%, transparent 80%);
+    }
+
+    h1 {
+        color: white;
+        font-family: "Thunder";
+    }
+    p {
+        color : #cbd5e1;
+        font-family: "Helvetica";
+    }
+
+  </style>
+</head>
+<body class="bg-[#181532]" style="font-family: Helvetica;">
+    <main>
+    <nav class="text-white flex justify-between pr-20 pl-20 pt-10 items-center">
+      <div class="nav-left text-2xl">
+        NeuroFix
+      </div>
+      <div class="nav-right text-slate-300">
+        <ul class="flex gap-8">
+          <a href="index.html"><li>Home</li></a>
+          <a href="city.html"><li>City</li></a>
+          <a href="about.html"><li>About</li></a>
+          <li>Pricing</li>
+          <a href="journey.html"><li>Journey</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <img src="neolit city.jpg" alt="" class="background-image my-16">
+
+    <div class="flex py-[30vh] px-32 max-h-[90vh] content w-full my-16">
+
+        <div class="flex-col max-w-[60ch]">
+            <h1 class="text-white text-7xl mb-[5vh]">
+                <span class="bg-gradient-to-r from-[#f313f3] to-[#1ca5b4] text-transparent bg-clip-text">
+                    LOREM IPSUM
+                </span>
+            </h1>
+            <p class="text-slate-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo adipisci exercitationem aliquid nemo molestiae amet veniam, aut est earum velit doloremque neque, eos, ullam eum cumque ab magni laboriosam!
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="grid grid-cols-3 grid-rows-1 gap-10 border-3 mx-60 pt-8 pb-32">
+        <div class="flex-col border-8 border-indigo-950 px-12 py-12 shadow-2xl">
+            <h1 class="pb-4 text-3xl">
+                <span class="bg-gradient-to-r from-[#f313f3] to-[#1ca5b4] text-transparent bg-clip-text">
+    LOREM IPSUM
+</span>
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum adipisci molestias consequuntur error architecto.
+            </p>
+        </div>
+        <div class="flex-col border-8 border-indigo-950 px-12 py-12 shadow-2xl">
+            <h1 class="pb-4 text-3xl">
+                <span class="bg-gradient-to-r from-[#f313f3] to-[#1ca5b4] text-transparent bg-clip-text">
+    LOREM IPSUM
+</span>
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum adipisci molestias consequuntur error architecto.
+            </p>
+        </div>
+        <div class="flex-col border-8 border-indigo-950 px-12 py-12 shadow-2xl">
+            <h1 class="pb-4 text-3xl">
+                <span class="bg-gradient-to-r from-[#f313f3] to-[#1ca5b4] text-transparent bg-clip-text">
+                    LOREM IPSUM
+                </span>
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum adipisci molestias consequuntur error architecto.
+            </p>
+        </div>
+        
+    </div>    
+    
+
+    <div class="flex mx-60 justify-between mb-32 border-8 border-indigo-950 py-16 px-12 shadow-2xl">
+        <div class="flex-col">
+            <h1 class="text-white text-5xl pb-[24px]">
+                <span class="bg-gradient-to-r from-[#f313f3] to-[#1ca5b4] text-transparent bg-clip-text">
+                    LOREM IPSUM
+                </span>
+            </h1>
+            <p class="text-slate-300 max-w-[35ch] text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis, omnis velit, fuga distinctio officia vero voluptatum minima rem eaque dolorum pariatur ipsum officiis placeat labore voluptatibus impedit vitae autem!
+            </p>
+        </div>
+        <img src="city.jpg" alt="" class="max-w-[70vh] rounded-5xl shadow-lg">
+    </div>
+
+
+    
+
+
+</main>
+
+</body>
+</html>
